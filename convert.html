@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Units Conversion</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="main.js"></script>
+</head>
+<body>
+        <header> 
+                <ul>
+                        <li><a href="convert.html">Home</a></li>
+                        <li><a href="Registration.html">Registration</a></li>
+                        <li><a href="description.html">description</a></li>
+                        <li><a href="contactUs.html">contactUs</a></li>
+            
+                    </ul>
+        
+                <a href="#" class="logo">
+                    <img src="logo.png" alt="logo">
+                </a>
+            </header>
+               
+
+        
+        <div class="new-div">
+                <div class="contenet">
+        <b>
+         <label for="take number">Enter the number:</label>
+         <input id="getnum" type="number" placeholder="Enter number">
+         <br><br>
+                
+        
+        <label for="from">From:</label>
+        <select id="cfrist" >
+        <option value="bits">Bits (bit)</option>
+        <option  value="Bytes" >Bytes (B)</option>
+        <option value="Kilobytes" >Kilobytes (kB)</option>
+        <option value="megabytes" >Megabytes (MB)</option>
+        <option value="Gigabytes" >Gigabytes (GB)</option>
+        </select>
+
+        <label for="to">to:</label>
+        <select  id="csecand" >
+        <option value="bits">Bits (bit)</option>
+        <option value="Bytes">Bytes (B)</option>
+        <option  value="Kilobytes" >Kilobytes (kB)</option>
+        <option value="Megabytes" >Megabytes (MB)</option>
+        <option value="Gigabytes" >Gigabytes (GB)</option>
+        </select><br><br>
+        
+        <label for="result"> display result :  </label>
+        <h3 id="result"> </h3> 
+       <!-- <input  id="result"  readonly >-->
+        
+        
+         <div class="btn">
+             <button  onclick="convert()">Convert</button>
+        
+                    <!--    <button type="button" id="clear" onClick="clearIt()">Clear</button> -->
+         </div>  
+        </div>
+</div>
+</div>
+
+</body>
+</html>
+
